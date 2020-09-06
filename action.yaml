@@ -1,0 +1,8 @@
+name: "Initialize Cloudify profile"
+description: "Initializes a Cloudify profile"
+runs:
+  using: "docker"
+  image: "docker://isaaccfy/cfy-ci:latest"
+  entrypoint: "cfyci"
+  args:
+    - 'init'
