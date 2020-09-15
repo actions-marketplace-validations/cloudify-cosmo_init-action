@@ -1,8 +1,12 @@
-name: "Initialize Cloudify profile"
-description: "Initializes a Cloudify profile"
+name: Initialize Cloudify Profile
+author: Isaac Shabtay
+description: Initializes a Cloudify CLI profile
+branding:
+  icon: cloud
+  color: white
 runs:
-  using: "docker"
-  image: "docker://isaaccfy/cfy-ci:latest"
-  entrypoint: "cfyci"
+  using: docker
+  image: docker://isaaccfy/cfy-ci:latest
+  entrypoint: cfyci
   args:
-    - 'init'
+    - init
