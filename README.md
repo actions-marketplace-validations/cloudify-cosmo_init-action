@@ -15,7 +15,7 @@ jobs:
   test_job:
     steps:
       - name: Initialize Profile
-        uses: cloudify-cosmo/init-action@v1.0
+        uses: cloudify-cosmo/init-action@v1.1
 ```
 
 # More Information
